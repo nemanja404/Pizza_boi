@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pizza boi || Pipe</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="section section--1" id="section1">
+      <nav class="nav">
+        <div class="logo">
+          <span class="logo__text">Pizza B</span>
+          <img src="./imgs/logo.png" alt="" class="logo__img" /><span
+            class="logo__text"
+            >i</span
+          >
+        </div>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="#section1">Home</a>
+          </li>
+          <li class="menu__item">
+            <a href="#section2" class="menu__link">Our Pizza</a>
+          </li>
+          <li class="menu__item">
+            <a href="#section3" class="menu__link">Ingredients</a>
+          </li>
+          <li class="menu__item">
+            <a href="#section4" class="menu__link">Our Bakers</a>
+          </li>
+          <li class="menu__item">
+            <a
+              href="#section5"
+              data-text="Contact Us"
+              class="btn btn--link btn--modal-open"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-text">
+        <div class="hero-text__wrapper">
+          <h1 class="main-header">It's just a pizza. No! It's a lifestyle.</h1>
+          <h3 class="main-text">
+            Striving for perfection. Perfect slice for a perfect day. Pizza boi
+            is here to stay!
+          </h3>
+          <a
+            href="#section2"
+            data-text="Our Pizza"
+            class="btn btn--link btn--pizza"
+            >Our Pizza</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- SECTION 2 OUR PIZZAS -->
+
+    <section class="section section--2" id="section2">
+      <h2 class="heading-2">Our pizzas</h2>
+      <div class="tabs">
+        <div class="tabs__buttons">
+          <a
+            class="btn btn--tab1 tabs__button tabs__button--0 tabs__button--active"
+            data-btn="0"
+            >Neapolitan</a
+          >
+          <a class="btn btn--tab2 tabs__button tabs__button--1" data-btn="1"
+            >Capricciosa</a
+          >
+          <a class="btn btn--tab3 tabs__button tabs__button--2" data-btn="2"
+            >Pesto</a
+          >
+        </div>
+        <div class="tabs__content">
+          <div class="tabs__tab tabs__tab--0 tabs__tab--active" data-tab="0">
+            <div class="tabs__body">
+              <div class="tabs__img-container">
+                <img
+                  src="imgs/type0.jpg"
+                  alt="Neapolitan pizza"
+                  class="tabs__img"
+                />
+              </div>
+              <div class="tabs__info">
+                <h4 class="heading-title">Neapolitan pizza</h4>
+                <h3 class="tabs__header heading-3">
+                  Crust full of air, simplicity and the amazing taste of pizza.
+                </h3>
+                <p class="text text--dark">
+                  Neapolitan pizza, or pizza Napoletana, is a type of pizza that
+                  originated in Naples, Italy. This style of pizza is prepared
+                  with simple and fresh ingredients: a basic dough, raw
+                  tomatoes, fresh mozzarella cheese, fresh basil, and olive oil.
+                  No fancy toppings are allowed!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tabs__tab tabs__tab--1" data-tab="1">
+            <div class="tabs__body">
+              <div class="tabs__img-container">
+                <img
+                  src="imgs/type2.webp"
+                  alt="Pizza Capricciosa"
+                  class="tabs__img"
+                />
+              </div>
+              <div class="tabs__info">
+                <h4 class="heading-title">Pizza Capricciosa</h4>
+                <h3 class="tabs__header heading-3">
+                  Mushrooms, prosciutto and the art of the toppings.
+                </h3>
+                <p class="text text--dark">
+                  Capricciosa got it's name after prosciutto cotto - typical
+                  Italian boiled ham of pork leg and it is used on Capricious
+                  (Capricciosa). Mozzarella cheese goes with prosciutto, hand in
+                  hand complimneting eachother in an explosive twister of taste.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tabs__tab tabs__tab--2" data-tab="2">
+            <div class="tabs__body">
+              <div class="tabs__img-container">
+                <img src="imgs/type1.jpg" alt="Pesto pizza" class="tabs__img" />
+              </div>
+              <div class="tabs__info">
+                <h4 class="heading-title">Pesto pizza</h4>
+                <h3 class="tabs__header heading-3">
+                  Basil, olive oil and the willingness to experiment.
+                </h3>
+                <p class="text text--dark">
+                  Pesto Pizza is the perfect delicious change from a regular
+                  Pizza Margherita, a creamy Pesto makes the perfect base, then
+                  topped with slices of fresh tomatoes and shredded mozzarella.
+                  Pizza night never tasted so good! Pesto is never cooked and is
+                  usually tossed with pasta or in this case, used as a base for
+                  a delicious Pizza.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 2 OUR PIZZAS END -->
+
+    <!-- SECTION 3 INGREDIENTS -->
+    <section class="section section--3" id="section3">
+      <h2 class="heading-2 t-white">Ingredients</h2>
+      <div class="ingredients">
+        <div class="ingredients__slide ingredients__slide--1" data-slider="1">
+          <div class="ingredients__img-container">
+            <img
+              src="imgs/ing0.webp"
+              alt="Ingredients for pizza."
+              class="ingredients__img"
+            />
+            <div class="ingredients__text">
+              <h4 class="heading-4">Flour</h4>
+              <p class="text">
+                Only the best, extra strong white flour is used. Italian tipo
+                00.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="ingredients__slide ingredients__slide--2" data-slider="2">
+          <div class="ingredients__img-container">
+            <img
+              src="imgs/ing1.jpg"
+              alt="Ingredients for pizza."
+              class="ingredients__img"
+            />
+            <div class="ingredients__text">
+              <h4 class="heading-4">Tomato sauce</h4>
+              <p class="text">
+                Sauce is made from freshest and best tomatos from Italy, San
+                Marzano's. Minimal ingredients for a maximal taste.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="ingredients__slide ingredients__slide--3" data-slider="3">
+          <div class="ingredients__img-container">
+            <img
+              src="imgs/ing2.jpg"
+              alt="Ingredients for pizza."
+              class="ingredients__img"
+            />
+            <div class="ingredients__text">
+              <h4 class="heading-4">Mozzarella</h4>
+              <p class="text">
+                For our pizza we don't make compromise. We only use freshest
+                mozzarella with fat content of 22%.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="ingredients__slide ingredients__slide--4" data-slider="4">
+          <div class="ingredients__img-container">
+            <img
+              src="imgs/ing3.jpg"
+              alt="Ingredients for pizza."
+              class="ingredients__img"
+            />
+            <div class="ingredients__text">
+              <h4 class="heading-4">Basil</h4>
+              <p class="text">
+                Homegrow basil leaves grown with utmost care are a trademark of
+                our pizza.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="ingredients__slide ingredients__slide--5" data-slider="5">
+          <div class="ingredients__img-container">
+            <img
+              src="imgs/ing4.webp"
+              alt="Ingredients for pizza."
+              class="ingredients__img"
+            />
+            <div class="ingredients__text">
+              <h4 class="heading-4">Himalayan salt</h4>
+              <p class="text">
+                Not all salt is the same. Some are healthier than others and
+                such is Himalayan salt.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ingredients__arrow ingredients__arrow--left">👈</div>
+        <div class="ingredients__arrow ingredients__arrow--right">👉</div>
+      </div>
+    </section>
+    <!-- SECTION 3 INGREDIENTS END -->
+
+    <!-- SECTION 4 BAKERS -->
+    <section class="section section--4" id="section4">
+      <h2 class="heading-2">Our bakers</h2>
+      <div class="bakers">
+        <div class="bakers__baker bakers__baker--active">
+          <div class="bakers__img--container">
+            <img src="imgs/person0.jpg" alt="Baker" class="bakers__img" />
+          </div>
+          <div class="bakers__text">
+            <h3 class="heading-3 big">Paolo</h3>
+            <blockquote class="text">
+              <span class="quote">
+                You have no choice as a professional chef: you have to repeat,
+                repeat, repeat, repeat until it becomes part of yourself. I
+                certainly don't cook the same way I did 40 years ago, but the
+                technique remains. And that's what the student needs to learn:
+                the technique.
+              </span>
+            </blockquote>
+          </div>
+        </div>
+        <div class="bakers__baker bakers__baker--active">
+          <div class="bakers__img--container">
+            <img src="imgs/person1.jpg" alt="Baker" class="bakers__img" />
+          </div>
+          <div class="bakers__text">
+            <h3 class="heading-3 big">Vito</h3>
+            <blockquote class="text">
+              <span class="quote">
+                Although the skills aren't hard to learn, finding the happiness
+                and finding the satisfaction and finding fulfillment in
+                continuously serving somebody else something good to eat, is
+                what makes a really good restaurant.
+              </span>
+            </blockquote>
+          </div>
+        </div>
+        <div class="bakers__baker bakers__baker--active">
+          <div class="bakers__img--container">
+            <img src="imgs/person2.jpg" alt="Baker" class="bakers__img" />
+          </div>
+          <div class="bakers__text">
+            <h3 class="heading-3 big">Andrea</h3>
+            <blockquote class="text">
+              <span class="quote">
+                I think preparing food and feeding people brings nourishment not
+                only to our bodies but to our spirits. Feeding people is a way
+                of loving them, in the same way that feeding ourselves is a way
+                of honoring our own createdness and fragility.
+              </span>
+            </blockquote>
+          </div>
+        </div>
+        <div class="bakers__baker bakers__baker--active">
+          <div class="bakers__img--container">
+            <img src="imgs/person3.jpg" alt="Baker" class="bakers__img" />
+          </div>
+          <div class="bakers__text">
+            <h3 class="heading-3 big">Ki-duk</h3>
+            <blockquote class="text">
+              <span class="quote">
+                Once you decide on your occupation... you must immerse yourself
+                in your work. You have to fall in love with your work. Never
+                complain about your job. You must dedicate your life to
+                mastering your skill. That's the secret of success... and is the
+                key to being regarded honorably.
+              </span>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 4 BAKERS NED -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <h1 class="heading-5">
+        All rights reserved,
+        <span class="logo__text year"> Pizza boi</span>
+      </h1>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!--MODAL  -->
+
+    <div class="modal" id="modal">
+      <div class="modal__content">
+        <div class="modal__header">
+          <h1 class="heading-3">Contact us</h1>
+          <span class="modal__close">&times;</span>
+        </div>
+        <div class="modal__body">
+          <form class="form" autocomplete="off">
+            <div class="form__control">
+              <label for="name" class="form__label">Name</label>
+              <input
+                type="text"
+                class="form__name form__input"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="form__control">
+              <label for="email" class="form__label">Email</label>
+              <input
+                type="text"
+                class="form__email form__input"
+                id="email"
+                placeholder="Enter your email address"
+              />
+            </div>
+            <textarea
+              id="question"
+              class="form__question form__input"
+              cols="27"
+              rows="7"
+              placeholder="Ask us anything..."
+            ></textarea>
+            <button class="btn btn--form" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
